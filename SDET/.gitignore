@@ -1,0 +1,25 @@
+# Eclipse
+/.classpath
+/.project
+/.settings/
+
+# Build
+/bin/
+/build/
+
+# Maven
+/target/
+
+#Java
+*.class
+*.log
+*.war
+*.ear
+
+# Maven
+*.log
+*.tmp
+*.bak
+
+# Reports
+/test-output/
