@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Autify Test Suite">
+    <test name="Autify Test Group Execution">
+        <groups>
+            <run>
+                <include name="WindowHandling"/>
+                <include name="FormValidation"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="practice.Case3test"/>
+            <class name="practice.Case4test"/>
+        </classes>
+    </test>
+</suite>
